@@ -10,8 +10,8 @@ var paths = {
 };
 
 var itemsToCopy = {
-    './node_modules/angular*.js': paths.webroot + 'lib'
-}
+    './node_modules/angular/*.js': paths.webroot + 'lib'
+};
 paths.js = paths.webroot + "js/**/*.js";
 paths.minJs = paths.webroot + "js/**/*.min.js";
 
